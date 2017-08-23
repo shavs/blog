@@ -29,28 +29,32 @@ menu:
       url: https://docs.gitea.io/en-us/
       weight: 20
       pre: question
+    - name: API
+      url: https://try.gitea.io/swagger
+      weight: 30
+      pre: plug                        
     - name: Blog
       url: /
-      weight: 30
+      weight: 40
       pre: rss
       post: active
     - name: Code
       url: https://code.gitea.io/
-      weight: 40
+      weight: 50
       pre: code
     - name: Downloads
       url: https://dl.gitea.io/
-      weight: 50
+      weight: 60
       pre: download
     - name: GitHub
       url: https://github.com/go-gitea/
-      weight: 60
+      weight: 70
       pre: github
     - name: Discord Chat
       url: https://discord.gg/NsatcWJ
-      weight: 70
+      weight: 80
       pre: comment
     - name: Forum
       url: https://discourse.gitea.io/
-      weight: 80
+      weight: 90
       pre: group
